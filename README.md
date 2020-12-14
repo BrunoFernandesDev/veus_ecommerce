@@ -24,8 +24,8 @@ USUÁRIO: bruno.dn.fernandes@gmail.com
 SENHA: 123456789
 
 Link API
-http://localhost:8000/api/v1/products
-http://localhost:8000/api/v1/products?sort=preco:asc&q=agulha&filter=brand:BUNZL
+`http://localhost:8000/api/v1/products`
+`http://localhost:8000/api/v1/products?sort=preco:asc&q=agulha&filter=brand:BUNZL`
 
 AUTH: Bearer
 
