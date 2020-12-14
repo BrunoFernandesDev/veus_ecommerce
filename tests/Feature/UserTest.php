@@ -13,13 +13,13 @@ class UserTest extends TestCase
 {
     use DatabaseTransactions;
 
-    const ADMIN_EMAIL = 'bruno2.dn.fernandes@gmail.com';
+    const ADMIN_EMAIL = 'veus@veus.com';
 
     /** @test */
     public function register_admin()
     {
         $data = [
-            'name' => 'Bruno',
+            'name' => 'veus',
             'email' => self::ADMIN_EMAIL,
             'password' => '123456789',
             'password_confirmation' => '123456789'
